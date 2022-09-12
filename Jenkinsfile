@@ -13,7 +13,7 @@ node{
     
     
     stage('Build Docker Image'){
-        sh 'docker build -t dockerhandson/java-web-app .'
+        sh 'docker build -t dockerhandson1/java-web-app .'
     }
     
     stage('Push Docker Image'){
